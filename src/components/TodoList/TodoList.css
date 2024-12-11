@@ -1,0 +1,14 @@
+.todo-li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.no-list {
+  list-style-type: none;
+}
