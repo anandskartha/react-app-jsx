@@ -1,0 +1,64 @@
+button {
+  cursor: pointer;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 90%;
+  height: 100%;
+  padding: 20px;
+}
+
+.todo-input {
+  width: 40%;
+  height: 32px;
+}
+
+.todo-btn {
+  width: 20%;
+  height: 40px;
+}
+
+.todo-input-container {
+  display: flex;
+  gap: 20px;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.todo-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: 100%;
+  width: 100%;
+  gap: 12px;
+}
+
+.todo-item {
+  display: flex;
+  height: 44px;
+  width: 400px;
+  border: 1px solid #fff;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  padding: 0 16px;
+}
+
+.filter-container {
+  width: 552px;
+}
+
+.filter-select {
+  height: 32px;
+  width: 100%;
+}
+
+.empty-list-message {
+  font-size: 14px;
+}

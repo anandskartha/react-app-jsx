@@ -17,6 +17,7 @@ const TodoList = () => {
         }
         const data = await response.json();
         setTodos(data);
+        setError(null);
       } catch (err) {
         setError(err.message);
       } finally {
